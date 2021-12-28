@@ -1,0 +1,114 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+/* display flex : organiza oss elementos em uma so linha
+alling alinha na mesma altura ou diferente
+justify : como a forma que os elementos da caixa vao se organizar */
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*logo da Netflix */
+
+header .logo{
+    font-family: 'arial black', Times;
+    color: var(--vermelho);
+    font-size: 40px;
+}
+
+/*alterando o menu*/
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+/*Hover e quando o mouse passar por cima
+*/
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* FILME PRINCIPAL */
+
+
+main .filme {
+    font-size: 17px;
+
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.575)100%), url('/img/a1f6hNKXOaFmd4RxBNPbnoDHMYR.jpg');
+    height: 550px ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme .descricao {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+.filme .titulo {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: "Arial Black";
+}
+
+
+/* BOTTOES FORMATAÇAO*/
+
+.botoes{
+    display: flex;
+    border: white;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.493);
+    border: none;
+    color: white;
+    margin-right: 35px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif
+
+
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: var(--preta);
+    transition: .3s ease all;
+}
+
+.botao i{
+    margin-right: 4px;
+}
