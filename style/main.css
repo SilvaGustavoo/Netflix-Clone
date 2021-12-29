@@ -63,7 +63,7 @@ main .filme {
     font-size: 17px;
 
     background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.575)100%), url('/img/a1f6hNKXOaFmd4RxBNPbnoDHMYR.jpg');
-    height: 550px ;
+    height: 500px ;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -73,12 +73,12 @@ main .filme {
 
 .filme .descricao {
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     font-size: 18px;
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 .filme .titulo {
-    margin-top: 15%;
+    margin-top: 12%;
     font-size: 50px;
     font-family: "Arial Black";
 }
@@ -110,5 +110,32 @@ main .filme {
 }
 
 .botao i{
-    margin-right: 4px;
+    margin-right: 5px;
+}
+
+
+
+/* ---- CONTAINERS EDICAO*/
+
+.container{
+    margin-left: 30px;
+
+}
+
+main .container{
+    width: 60%;
+}
+
+
+/* CONFIGURAR IMG CARROSEL */
+
+.item{
+    weight: 100%;
+    width: 100%;
+    display: 100%;
+}
+
+.item:hover{
+    cursor: pointer;
+
 }
