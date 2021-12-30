@@ -1,0 +1,100 @@
+
+                    /* CONFIGURAÇAO DE TABLET*/
+
+@media screen and (max-width:700px){
+    header .container {
+        zoom: 80%;
+    }
+    
+    .filme .descricao {
+        font-size: 16px;
+    }
+    
+    .botao {
+        width: initial;
+        display: flex;
+    }
+
+}
+
+
+                    /* CONFIGURAÇAO DE COMPUTADOR*/
+
+@media screen and (min-width: 940px){
+
+
+    main .container{
+        margin-left: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .filme .titulo {
+        font-size: 100px;
+    }
+
+    main .filme{
+        height: 800px;
+        background-repeat: no-repeat;
+    }
+
+
+    .filme .descricao {
+        width: 85%;
+        font-size: 23px;
+        margin-bottom: 100px;
+
+    }
+
+    .botao {
+        width: 250px;
+        height: 70px;
+    }
+    
+}
+
+
+                /*CONFIGURAÇAO PARA CELULAR*/
+
+@media screen and (max-width:430px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+        zoom: 80%;
+    }
+    main .container{
+        margin-top: 80px;
+        margin-left: 15px;
+    }
+
+    .filme .descricao{
+        font-size: 10px;
+    }
+
+    .filme .titulo {
+        font-size: 35px;
+
+    }
+
+    .botao {
+        width: 100%;
+
+        margin-right: 16px;
+        font-size: 12px;
+        zoom: 90%;
+        align-items: center;
+    }
+
+    .botao i{
+        margin-right: 12px;
+    }
+
+    main .filme {
+        background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.575)100%), url('/img/editado.jpg');
+
+        height: 470px;
+        background-size: cover;
+        backdrop-filter: none;
+    }
+}
+

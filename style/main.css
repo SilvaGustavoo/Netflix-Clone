@@ -62,8 +62,8 @@ header nav a:hover{
 main .filme {
     font-size: 17px;
 
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.575)100%), url('/img/a1f6hNKXOaFmd4RxBNPbnoDHMYR.jpg');
-    height: 500px ;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.575)100%), url('../img/a1f6hNKXOaFmd4RxBNPbnoDHMYR.jpg');;
+    height: 400px ;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -138,4 +138,8 @@ main .container{
 .item:hover{
     cursor: pointer;
 
+}
+
+.carrosel {
+    margin-top: 5px;
 }
